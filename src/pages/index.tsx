@@ -1,10 +1,17 @@
 import Head from 'next/head'
 
-export default function Home({ title = "Rebeca"}) {
+type Props = {
+  title: string
+}
+
+const bla = "123"
+
+export default function Home({
+  title = "Rebeca"}: Props) {
   return (
     <div>
       <Head>
-        <title> {title}</title>
+        <title> {title} </title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
