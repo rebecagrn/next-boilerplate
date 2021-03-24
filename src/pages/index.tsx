@@ -4,10 +4,7 @@ type Props = {
   title: string
 }
 
-const bla = "123"
-
-export default function Home({
-  title = "Rebeca"}: Props) {
+export default function Home({ title = 'Rebeca' }: Props) {
   return (
     <div>
       <Head>
@@ -15,7 +12,7 @@ export default function Home({
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-        <main>
+      <main>
         <h1>
           Welcome to <a href="https://nextjs.org">{title}</a>
         </h1>
