@@ -4,10 +4,12 @@ import Main from '.'
 
 describe('<Main />', () => {
   it('it should render the heading', () => {
-    render(<Main />)
+    const { container } = render(<Main />)
 
     expect(
-      screen.getByRole('heading', { name: /testando/i })
+      screen.getByRole('heading', { name: /nextjs boilerplate/i })
     ).toBeInTheDocument()
+
+    expect(container.firstChild).toMatchSnapshot()
   })
 })
