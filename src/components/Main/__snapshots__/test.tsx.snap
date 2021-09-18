@@ -1,27 +1,69 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Main /> it should render the heading 1`] = `
+.c0 {
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  padding: 3rem;
+  text-align: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c1 {
+  width: 7rem;
+  margin-bottom: 2rem;
+}
+
+.c2 {
+  font-size: 2.5rem;
+}
+
+.c3 {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.c4 {
+  margin-top: 3rem;
+  width: min(30rem,100%);
+}
+
 <main
-  class="styles__Wrapper-sc-1fpvr54-0 hGwkLy"
+  class="c0"
 >
   <img
     alt="logo description"
-    class="styles__Logo-sc-1fpvr54-1 AnJam"
+    class="c1"
     src="/img/logo.svg"
   />
   <h1
-    class="styles__Title-sc-1fpvr54-2 iXdAok"
+    class="c2"
   >
     Nextjs Boilerplate
   </h1>
   <h2
-    class="styles__Description-sc-1fpvr54-3 bxIlLb"
+    class="c3"
   >
     TypeScript, ReactJS, NextJS and Styled Components
   </h2>
   <img
     alt="illustration description"
-    class="styles__Illustration-sc-1fpvr54-4 fxtxQS"
+    class="c4"
     src="/img/hero-illustration.svg"
   />
 </main>
