@@ -5,7 +5,7 @@ export interface MainProps {
   description: string
 }
 
-const Main: React.FC<MainProps> = ({
+export const Main: React.FC<MainProps> = ({
   title = 'Nextjs Boilerplate',
   description = 'TypeScript, ReactJS, NextJS and Styled Components'
 }) => (
