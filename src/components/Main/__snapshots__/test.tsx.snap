@@ -2,6 +2,7 @@
 
 exports[`<Main /> it should render the heading 1`] = `
 .c0 {
+  background-color: #06092b;
   color: #fff;
   width: 100%;
   height: 100%;
