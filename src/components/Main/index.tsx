@@ -1,11 +1,6 @@
 import * as S from './styles'
 
-export interface MainProps {
-  title: string
-  description: string
-}
-
-export const Main: React.FC<MainProps> = ({
+const Main = ({
   title = 'Nextjs Boilerplate',
   description = 'TypeScript, ReactJS, NextJS and Styled Components'
 }) => (
