@@ -16,7 +16,8 @@ body {
 }
 
 html, body, #_next {
-  height: 100%
+  height: 100%;
+  background-color: #06092b;
 }
 
 `
